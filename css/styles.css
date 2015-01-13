@@ -8,24 +8,24 @@
 /* ***** ***** ****** ***** ***** */
 /* ***** ***** STYLES ***** ***** */
 /* ***** ***** STYLES ***** ***** */
-main .upper {
-  background: #ff0059;
-  /* Old browsers */
-  background: -moz-linear-gradient(left, #ff0059 0%, #ff8300 100%, #ffe207 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ff0059), color-stop(100%, #ff8300), color-stop(100%, #ffe207));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left, #ff0059 0%, #ff8300 100%, #ffe207 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left, #ff0059 0%, #ff8300 100%, #ffe207 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(left, #ff0059 0%, #ff8300 100%, #ffe207 100%);
-  /* IE10+ */
-  background: linear-gradient(to right, #ff0059 0%, #ff8300 100%, #ffe207 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0059', endColorstr='#ffe207',GradientType=1 );
-  /* IE6-9 */
-  height: 100%; }
+#main {
+  height: 100%;
+  text-align: center;
+  background-color: #3498db; }
+  #main h1 {
+    top: 50%;
+    margin: 0;
+    color: white;
+    position: relative;
+    font-size: 72px;
+    text-shadow: 0px 0px 10px black; }
+  #main .img {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/under-construction.png"); }
 
 /* ***** ***** ****** ***** ***** */
 /* ***** ***** ****** ***** ***** */
