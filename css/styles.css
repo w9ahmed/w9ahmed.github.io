@@ -1,0 +1,31 @@
+/* ***** ***** COLORS ***** ***** */
+/* ***** ***** COLORS ***** ***** */
+/* ***** ***** ****** ***** ***** */
+/* ***** ***** ****** ***** ***** */
+/* ***** ***** MIXINS ***** ***** */
+/* ***** ***** MIXINS ***** ***** */
+/* ***** ***** ****** ***** ***** */
+/* ***** ***** ****** ***** ***** */
+/* ***** ***** STYLES ***** ***** */
+/* ***** ***** STYLES ***** ***** */
+main .upper {
+  background: #ff0059;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #ff0059 0%, #ff8300 100%, #ffe207 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ff0059), color-stop(100%, #ff8300), color-stop(100%, #ffe207));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #ff0059 0%, #ff8300 100%, #ffe207 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #ff0059 0%, #ff8300 100%, #ffe207 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #ff0059 0%, #ff8300 100%, #ffe207 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #ff0059 0%, #ff8300 100%, #ffe207 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0059', endColorstr='#ffe207',GradientType=1 );
+  /* IE6-9 */
+  height: 100%; }
+
+/* ***** ***** ****** ***** ***** */
+/* ***** ***** ****** ***** ***** */
